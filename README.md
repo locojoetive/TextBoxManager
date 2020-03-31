@@ -43,7 +43,6 @@ All conversations are saved in one csv file.
 Open the csv file `Asset/Resources/text/TextBoxLines.csv` in Google Sheets.
 You will see the following columns 
 \
-\
 - Conversation ID (String)
 - Talker Name (String, optional)
 - Content (String, optional)
@@ -71,7 +70,7 @@ If you want to add sound effects to specific snippets,
 As a final step use the following line to display the TextBox for a specified conversation. Make sure to replace "Conversation-ID" by the one you specified in `TextBoxLines.csv`
 
 ```C#
-TextBoxManager.StartConversation("Conversation-ID")
+TextBoxManager.StartConversation("Conversation-ID");
 ```
 
 ## 3. Future Work:
