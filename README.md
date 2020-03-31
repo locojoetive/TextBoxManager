@@ -40,7 +40,7 @@ If you already have an EventSystem in your Scene, delete the EventSystem of the 
 You can achieve this by deleting the EventSystem in the prefab, by unpacking your instance, or by creating and using a variant of this prefab.
 ### 2.3 Create your own conversation
 All conversations are saved in one csv file.
-Open the csv file `Asset/Resources/text/TextBoxLines.csv` in Excel or Google Sheets.
+Open the csv file `Asset/Resources/text/TextBoxLines.csv` in Google Sheets.
 You will see the following columns 
 \
 \
